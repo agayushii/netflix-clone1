@@ -1,0 +1,334 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.first{
+    height: 90vh;
+    width: 210vh;
+    border: 5px solid gray;
+    background-image: url(images/bgimg.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    .text{
+        text-align: center;
+        color: white;
+        margin-top: 10%;
+        font-size: 30px;
+    }
+    .btn{
+        padding: 20px;
+        padding-right: 150px;
+        .select{
+            padding: 10px;
+            font-size: 20px;
+            background-color: transparent;
+            color: white;
+            border: 1px solid rgba(128, 128, 128, 0.747);
+            border-radius: 5px;
+            width: 150px;
+        }
+        .sign{
+            padding: 10px;
+            font-size: 22px;
+            background-color: red;
+            color: white;
+            border: 1px solid rgba(128, 128, 128, 0.747);
+            border-radius: 5px;
+            width: 100px;
+            font-weight: bold;
+        }
+        .sign:hover{
+            background-color: rgba(236, 48, 48, 0.925);
+        }
+    }
+
+}
+header{
+    background-color: rgba(0, 0, 0, 0.466);
+    height: 800px;
+}
+.email{
+    padding: 15px;
+    width: 500px;
+    margin-top: 20px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.Get{
+    padding: 15px;
+    background-color: red;
+    color: white;
+    width: 170px;
+    border: none;
+    font-size: 22px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+}
+.two{
+    background-color: black;
+    height: 80vh;
+    align-items: center; 
+    border: 5px solid gray;
+    .two-content{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 90px;
+        .text{
+        margin-top: 100px;
+        margin-left: 100px;
+        >h1{
+            font-size: 60px;
+        }
+        p{
+            font-size: 35px;
+        }
+        }
+        .img-vdo{
+            position: relative;
+            z-index: 10;
+            .img2{
+                position: absolute;
+                z-index: 10;
+                right: 5px;
+            }
+            .vdo{
+                position: absolute;
+                top: 85px;
+                right: 55px;
+                z-index: 0;
+            }
+        }
+    }
+        .text{
+        color: white;
+        margin-left: 200px;
+        font-size: x-large;
+        
+    }
+}
+.three{
+    height: 90vh;
+    background-color: black;
+    border: 5px solid gray;
+    .three-content{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 90px;
+        .text{
+            color: white;
+            margin-right: 130px;
+            font-size: 36px;
+            p{
+                font-size: 35px;
+            }
+        }
+    }
+    .img3{
+        position: relative;
+        margin-left: 80px;
+    }
+    .vdo{
+        background-color: rgb(10, 5, 5);
+        position: absolute;
+        top: 1700px;
+        border: 1px solid rgba(255, 255, 255, 0.336);
+        height: 80px;
+        width: 350px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 208px;
+        padding: 25px;
+        .txt{
+            color: white;
+            padding-right: 50px;
+            align-items: center;
+            .d{
+                color: #0044ffb6;
+                padding: 2px;
+                align-items: center;
+            }
+        }
+    }
+}
+.four{
+    background-color: black;
+    height: 90vh;
+    border: 5px solid gray;
+    position: relative;
+    padding: 60px ;
+    .four-text{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .text{
+            color: white;
+            margin-left: 10px;
+            h1{
+                font-size: 50px;
+                font-weight: bold;
+                padding-left: 50px;
+            }
+            p{
+                font-size: 25px;
+                font-weight: bold;
+                padding-left: 50px;
+            }
+        }
+    }
+    .image{
+        margin-top: 80px;
+        position: relative;
+        z-index: 10;
+    }
+    .video{
+        position: absolute;
+        top: 176px;
+        right: 190px;
+        z-index: 0;
+    }
+}
+.five{
+    padding: 200px;
+    height: 90vh;
+    background-color: black;
+    border: 5px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .text{
+        color: white;
+        h1{
+            font-size: 50px;
+            font-weight: bold;
+        }
+        p{
+            font-size: 30px;
+            font-weight: bold;
+        }
+    }
+}
+.six{
+    height: 120vh;
+    background-color: black;
+    border: 5px solid gray;
+    color: white;
+    text-align: center;
+    padding: 50px;
+     .str{
+    font-size: 50px;
+    padding: 80px;
+    }
+    .layout{
+        margin-top: 20px ;
+        width: 500px;
+        text-align: center;
+        align-items: center;
+    }
+    .layout .box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: none;
+        margin: 10px;
+        padding: 20px;
+        width: 1200px;
+        font-size: 20px;
+        margin-left: 150px;
+        background-color: rgba(128, 128, 128, 0.295);
+        .ready .rtext{
+            font-size: 20px;
+            text-decoration: none;
+        }
+        }
+}
+.layout .box:hover{
+    background-color:rgba(82, 81, 81, 0.76);
+}
+
+.email-two{
+    background-color: rgba(128, 128, 128, 0.158);
+    border: 1px solid rgba(128, 128, 128, 0.432);
+    border-radius: 10px;
+    width: 350px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Get-two{
+    background-color: red;
+    border: none;
+    padding: 20px ;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.Get-two:hover{
+    background-color: rgba(250, 7, 7, 0.900);
+}
+.Get:hover{
+    background-color: rgba(250, 7, 7, 0.900);
+}
+.seven{
+    background-color: black;
+    border: 5px solid gray;
+    color: white;
+    font-size: 19px ;
+    .layout{
+        margin: 100px;
+        .que{
+            margin: 15px;
+        }
+        .links{
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            .ul ,li{
+                list-style: none;
+                margin: 25px;
+            a{
+                text-decoration: none;
+                color: white;
+                text-decoration: underline;
+            }
+        }
+        }
+    }
+    .btn{
+        padding: 20px;
+        padding-right: 150px;
+        .select{
+            padding: 10px;
+            font-size: 20px;
+            background-color: rgba(128, 128, 128, 0.137);
+            color: white;
+            border: 1px solid rgba(128, 128, 128, 0.747);
+            border-radius: 5px;
+            width: 150px;
+            margin-left: 80px;
+
+    }
+}
+.ind{
+        font-size: 30px;
+        margin-left: 100px;
+        margin-top: 20px;
+}
+}
+option{
+    background-color: blue;
+}
